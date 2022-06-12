@@ -1,0 +1,74 @@
+main {
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#description {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 200;
+}
+
+#survey-form {
+    padding: 1rem 5rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fafafa;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+}
+
+input,
+select,
+textarea {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-bottom: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#role-label,
+#option-label,
+#favorite-label,
+#comments-label,
+#improvements-label {
+    margin-top: 1.5rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    align-content: flex-start;
+    margin-right: 0.5rem;
+}
+
+#submit {
+    background-color: lightgreen;
+}
+
+.radio-checkbox-label {
+    position: relative;
+    top: -1.8rem;
+    left: 1.5rem;
+}
